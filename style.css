@@ -1,0 +1,59 @@
+header, footer, .boxOne {
+    background-color: #1F2937;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.headLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+li {
+    font-size: 18px;
+     list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.boxOneP {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.boxThree {
+    background-color: #E5E7E8;
+}
+
+.fancyQuote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.headerLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.forestImg {
+    border-radius: 30px;
+    width: 15%;
+    height: auto;
+}
+
+.boxTwo {
+    display: flex;
+    justify-content: center;
+}
