@@ -1,59 +1,53 @@
-header, footer, .boxOne {
-    background-color: #1F2937;
+/* Header and links */
+* {
+    font: roboto;
+    
+}
+.nav {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;  
 }
 
-.awesome {
+.topLeft {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.topRight {
+    display: flex;
+    gap: 35px;
+    justify-content: flex-end;
+    color: #e5e7eb;
+    font-size: 18px;  
+}
+
+li {
+  display: inline-block;  
+}
+
+.boxOne {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+}
+h1 {
+    color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.headLogo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-li {
-    font-size: 18px;
-     list-style-type: none;
-}
-a {
-    text-decoration: none;
-    color: #E5E7EB;
 }
 
 .boxOneP {
+    color: #e5e7eb;
     font-size: 18px;
-    color: #E5E7EB;
 }
-
-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-}
-
-.boxThree {
-    background-color: #E5E7E8;
-}
-
-.fancyQuote {
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
-    font-weight: 100;
-}
-
-.headerLinks {
-    display: flex;
-    flex-direction: row;
-}
-
-.forestImg {
-    border-radius: 30px;
-    width: 15%;
+.foggyLake {
+    width: 60%;
     height: auto;
 }
 
-.boxTwo {
-    display: flex;
-    justify-content: center;
+button {
+    background-color: #3882f6;
+    border-radius: 15%;
+    color: #f9faf8;
 }
