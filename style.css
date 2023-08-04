@@ -28,9 +28,17 @@ li {
 
 .boxOne {
     display: flex;
-    background-color: #1f2937;
-    align-items: center;
+    background-color: #1f2937; 
+    justify-content: space-around;
 }
+
+.boxOneInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     color: #f9faf8;
     font-size: 48px;
@@ -40,10 +48,15 @@ h1 {
 .boxOneP {
     color: #e5e7eb;
     font-size: 18px;
+    
 }
 .foggyLake {
     width: 60%;
     height: auto;
+}
+
+.bob {
+    width: 10%;
 }
 
 button {
